@@ -1,0 +1,81 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+.guide-detail-container {
+  min-height: 100vh;
+}
+
+.tour-guide-detail {
+}
+
+.image-detail {
+}
+
+.image-detail img {
+  /* position: absolute; */
+  max-width: 100%;
+}
+
+.detail-name {
+  padding: 20px 10px;
+  margin-top: -8px;
+  text-transform: capitalize;
+  background: var(--gradient);
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  margin-top: -20px;
+}
+.guide-detail-location {
+  font-size: 1em;
+}
+.box-tour-attraction {
+  padding-left: 10px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+
+  animation-name: slide-in;
+  animation-duration: 1s;
+}
+.box-bio {
+  min-height: 200px;
+}
+.bio {
+  display: flex;
+  text-indent: 2rem;
+  text-align: justify;
+  animation-name: slide-in;
+  animation-duration: 1s;
+  padding-left: 10px;
+}
+
+.box-guide {
+  filter: drop-shadow(0 0 0.4rem rgb(30, 105, 86));
+  background: #fff;
+}
+.box-tour-attraction li {
+  list-style: none;
+}
+
+svg {
+  color: #0d7f5b;
+  margin-right: 5px;
+}
+svg.icons {
+  height: 25px;
+  width: 25px;
+}
+
+.active {
+  font-weight: bold;
+  color: aliceblue;
+}
+.b {
+  background: #0d7f5b;
+  border-bottom: none;
+}
+.b button {
+  background: transparent;
+}

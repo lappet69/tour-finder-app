@@ -1,0 +1,86 @@
+.list-container {
+  background-color: white;
+  padding: 0px 10px;
+}
+.list-container li {
+  list-style: none;
+}
+
+.kota-container {
+  background-color: white;
+  padding: 0px 10px;
+}
+.kota-container li {
+  list-style: none;
+}
+
+.tour-guide-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* min-height: 33em; */
+  box-sizing: border-box;
+}
+.tour-guide-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  padding: 10px 10px;
+  border-radius: 5px;
+  margin: 5px;
+  filter: drop-shadow(0 0 0.2rem rgb(30, 105, 86));
+}
+.image-box {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  /* margin: 10px; */
+  position: relative;
+}
+.image-box img {
+  position: absolute;
+
+  min-height: 100%;
+  max-width: 100%;
+}
+
+.guide {
+  text-transform: capitalize;
+  font-style: small;
+  color: var(--gradient);
+  letter-spacing: 1px;
+  line-height: 1px;
+}
+.guide-province {
+  font-size: 14px;
+}
+.guide-city {
+  font-size: small;
+  margin-left: 5px;
+}
+.wrapper {
+  display: flex;
+  align-items: baseline;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}
+.contact {
+  cursor: pointer;
+  background: var(--gradient);
+  color: aliceblue;
+  font-size: 12px;
+  border: none;
+  text-transform: uppercase;
+  /* font-weight: 500; */
+  /* font-family: "Poppins", sans-serif; */
+}
+
+.no-data {
+  min-height: 100%;
+}

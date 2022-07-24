@@ -1,5 +1,19 @@
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+.container {
+  width: 30em;
+  display: flex;
+  flex-direction: column;
+  background: #fafaeb;
+  border-top-left-radius: 20px;
+}
+button {
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
 }
 
 .App-logo {

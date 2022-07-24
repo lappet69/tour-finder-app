@@ -1,0 +1,27 @@
+.select-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 1rem;
+}
+
+.button-find {
+  margin-top: 25px;
+  background: var(--gradient);
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 5px;
+  color: aliceblue;
+}
+
+input,
+select {
+  border: none;
+  padding: 0.5rem;
+  border-radius: 3px;
+  caret-color: red;
+  cursor: pointer;
+}
+label {
+  font-size: 13px;
+  font-weight: 300;
+}

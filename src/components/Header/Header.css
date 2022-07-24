@@ -1,0 +1,23 @@
+.header-container {
+  position: relative;
+  background: var(--gradient);
+  z-index: 2;
+  color: aliceblue;
+  padding: 0 1rem;
+  border-bottom-right-radius: -30px;
+  background-size: 200%;
+  animation: header-animasi 20s infinite alternate;
+  border-radius: 20px 0 0 0;
+}
+.header-container a {
+  color: aliceblue;
+}
+
+@keyframes header-animasi {
+  0% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}

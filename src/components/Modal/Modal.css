@@ -1,0 +1,44 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+.blur {
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  background: rgba(245, 241, 241, 0.3);
+  min-width: 100%;
+  min-height: 100vh;
+}
+.contact-modal-container {
+  overflow: hidden;
+  transform: translate(60px, 100px);
+  position: fixed;
+  display: block;
+  min-width: 360px;
+  background: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  z-index: 99;
+  filter: drop-shadow(0 0 0.5rem rgb(30, 105, 86));
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 0 10px 0;
+}
+textarea,
+input {
+  border: none;
+
+  filter: drop-shadow(0 0 0.1rem rgb(30, 105, 86));
+}
+.contact-modal-container button:nth-child(2) {
+  background: var(--gradient);
+  color: aliceblue;
+}
+button {
+  cursor: pointer;
+  text-transform: uppercase;
+}

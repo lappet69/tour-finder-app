@@ -1,0 +1,23 @@
+.carousel {
+  display: flex;
+  cursor: grab;
+  overflow: hidden;
+  padding: 0rem 0;
+}
+
+.inner-carousel {
+  display: flex;
+}
+
+.slide {
+  /* min-height: 40rem; */
+  width: 30rem;
+  margin-right: 10px;
+}
+
+.slide img {
+  width: 100%;
+  border-radius: 0 0px;
+  pointer-events: none;
+  /* padding: 2px; */
+}

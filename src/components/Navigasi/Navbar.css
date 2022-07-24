@@ -1,0 +1,27 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 0 0 0;
+  background: var(--gradient);
+  position: relative;
+  width: 30em;
+  z-index: 7;
+  bottom: 0;
+}
+.nav-item a {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: aliceblue;
+  font-size: small;
+  text-transform: uppercase;
+}
+
+svg.nav-icon {
+  /* border: 1px solid; */
+  width: 100px;
+  background: transparent;
+  filter: drop-shadow(0 0 0.5rem blue);
+  color: rgb(223, 235, 231);
+  font-size: 30px;
+}
