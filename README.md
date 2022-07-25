@@ -1,5 +1,5 @@
 # Screenshot app
-![image.png]( {[link gambar](https://github.com/lappet69/tour-finder-app/blob/master/src/components/assets/appsample/tourfinder.png)} )
+![[image.png](https://github.com/lappet69/tour-finder-app/blob/master/src/components/assets/appsample/tourfinder.png)]( {[link gambar](https://github.com/lappet69/tour-finder-app/blob/master/src/components/assets/appsample/tourfinder.png)} )
 
 # Getting Started with Create React App
 
